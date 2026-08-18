@@ -105,6 +105,8 @@ This allows layoffs to be examined chronologically and makes it possible to iden
 ---
 
 ### 4. Monthly Layoff Trends
+<img width="1366" height="710" alt="Monthly layoffs" src="https://github.com/user-attachments/assets/0009a7d7-73a9-49e8-9464-5cd3ead5a7b2" />
+
 
 Monthly total layoffs were calculated and ordered chronologically.
 
@@ -113,6 +115,7 @@ This provides a time-series view of how layoff activity changed over the period 
 ---
 
 ### 5. Rolling Total Analysis
+<img width="1366" height="714" alt="Rolling Total" src="https://github.com/user-attachments/assets/0b389eb5-6457-4968-934a-5c3d1dcf6819" />
 
 A Common Table Expression was used to calculate monthly layoffs before applying a window function to calculate the cumulative number of reported layoffs over time.
 
@@ -125,6 +128,7 @@ This demonstrates the use of window functions for cumulative time-series analysi
 ---
 
 ### 6. Company Layoffs by Year
+<img width="1366" height="716" alt="Top companies" src="https://github.com/user-attachments/assets/fbfb60c5-0fd2-43cb-bccc-ecdbc16a273c" />
 
 Layoffs were aggregated by both company and year to identify how individual companies contributed to layoffs over time.
 
@@ -138,6 +142,7 @@ ORDER BY 3 DESC;
 ---
 
 ### 7. Top 5 Companies by Year
+<img width="1366" height="718" alt="Top 5 companies by year" src="https://github.com/user-attachments/assets/9d5d3a25-8073-4c8e-917a-478405bf04bf" />
 
 A CTE combined with `DENSE_RANK()` was used to rank companies within each year.
 
@@ -165,6 +170,7 @@ This provides an additional geographic dimension to company-level analysis.
 ---
 
 ### 9. Country-Level Analysis
+<img width="1366" height="714" alt="Country analysis" src="https://github.com/user-attachments/assets/2f112689-590e-4869-9800-e3760ae6b5d8" />
 
 Total layoffs were aggregated by country to compare the scale of layoffs across different geographic markets.
 
@@ -173,6 +179,7 @@ The analysis also examined the highest-layoff companies within each country and 
 ---
 
 ### 10. Industry Analysis
+<img width="1366" height="714" alt="Per year Industry ranking" src="https://github.com/user-attachments/assets/9380d9bc-9bee-4713-a8f9-ce56d457a78f" />
 
 Layoffs were grouped by industry and year.
 
